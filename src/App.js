@@ -6,7 +6,7 @@ import NewsBox from './components/NewsBox';
 function App() {
   return (
     <div className="App">
-      <div className='App-header-tag container-lg'>
+      <div className='App-header-tag container-xl'>
         <Row gutter={[16,16]} justify="end">
           <Col className='contact1'>
             <p><BsTelephoneFill/>(+976) 736-8151</p>

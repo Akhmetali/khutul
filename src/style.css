@@ -361,10 +361,14 @@
   display: flex;
 }
 .App .footer .copyright .social p {
-  margin: 0 20px;
+  padding: 0 20px;
+}
+.App .footer .copyright .social p:first-child {
+  border-right: 1px solid rgb(178, 179, 180);
 }
 .App .footer .copyright .social p:last-child {
-  margin-right: 0;
+  padding-right: 0;
+  border-left: 1px solid rgb(178, 179, 180);
 }
 
 @media (max-width: 1200px) {
