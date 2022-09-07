@@ -67,7 +67,7 @@
 .App .App-header .menus .icon img {
   height: 2.5rem;
 }
-.App .App-header .menus .icon .bar {
+.App .App-header .menus .bar {
   display: none;
 }
 .App .App-header .menus .menu {
@@ -382,7 +382,7 @@
   .App-header {
     margin: 0 4px !important;
   }
-  .App-header .icon .bar {
+  .App-header .bar {
     display: block !important;
   }
   .section-second {

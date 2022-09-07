@@ -70,9 +70,9 @@
                 img{
                     height: 2.5rem;
                 }
-                .bar{
-                    display: none;
-                }
+            }
+            .bar{
+                display: none;
             }
            .menu{
                 display: flex;
@@ -422,10 +422,8 @@
       }
       .App-header {
         margin: 0 4px !important;
-        .icon{
-            .bar{
-                display: block !important;
-            }
+        .bar{
+            display: block !important;
         }
       }
       .section-second{

@@ -23,9 +23,7 @@ function App() {
           <div className='menus'>
             <div className='icon'>
               <img src='https://i.postimg.cc/KjvTk1yn/Logo2022.png'/>
-              <div className='bar'>
-                  <FaBars/>
-              </div>
+           
             </div>
             <div className='menu'>
                 <p>Бидний тухай</p>
@@ -36,6 +34,9 @@ function App() {
                 <button>Захиалга</button>
                 <button> Ил тод байдал</button>
             </div>
+            <div className='bar'>
+                  <FaBars/>
+              </div>
             
           </div>
       </div>
