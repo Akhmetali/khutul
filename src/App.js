@@ -25,7 +25,6 @@ function App() {
               <div className='bar'>
                   <FaBars/>
               </div>
-              
             </div>
             <div className='menu'>
                 <p>Бидний тухай</p>
