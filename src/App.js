@@ -45,25 +45,36 @@ function App() {
             <button>Шохой</button>
         </div>
         <div className='section-second'>
-          <div className="productBox">
-              <h3>ЦЕМЕНТ 42.5</h3>
-              <div className='price'>
-                  <div className='price-tog'>
-                      <p className='tog'>202,000₮</p>
-                      <div className='noat'>
-                          <p>НӨАТ-тай</p>
-                          <p>Жижиглэн (байхгүй)</p>
-                      </div>
-                  </div>
-                  <div className='btns'>
-                    <button>Цемент 32.5 захиалах</button>
-                  </div>
-              </div>
-              <div className='detail'>
-                <p><BsCheckLg/>Задгай /бөөний үнэ/ - 202,000₮</p>
-                <p><BsCheckLg/>Ууттай /бөөний үнэ/ - 227,000₮</p>
-              </div>
-          </div>
+          <Row className='section-second-box' align='center' gutter={[0,16]}>
+            <Col>
+              <ProductBox/>
+            </Col>
+            <Col>
+              <div className="productBox-white">
+                <h3>ЦЕМЕНТ 42.5</h3>
+                <div className='price'>
+                    <div className='price-tog'>
+                        <p className='tog'>202,000₮</p>
+                        <div className='noat'>
+                            <p>НӨАТ-тай</p>
+                            <p>Жижиглэн (байхгүй)</p>
+                        </div>
+                    </div>
+                    <div className='btns'>
+                      <button>Цемент 32.5 захиалах</button>
+                    </div>
+                </div>
+                <div className='detail'>
+                  <p><BsCheckLg/>Задгай /бөөний үнэ/ - 202,000₮</p>
+                  <p><BsCheckLg/>Ууттай /бөөний үнэ/ - 227,000₮</p>
+                </div>
+            </div>
+            </Col>
+            <Col>
+            <ProductBox/>
+            </Col>
+          </Row>
+          
           
         </div>
       </div>

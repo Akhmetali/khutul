@@ -165,8 +165,75 @@
   border-top: 1px solid rgb(178, 179, 180);
   margin-bottom: 0;
 }
+.App .productBox-white {
+  min-height: 340px;
+  max-width: 600px;
+  background-color: #fff;
+  color: #374151;
+  border-radius: 8px;
+  margin-top: 40px;
+  padding: 24px 24px 12px 24px;
+  border: 2px solid #2563eb;
+}
+.App .productBox-white h3 {
+  color: #2563eb;
+  text-align: left;
+}
+.App .productBox-white .price .price-tog {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.App .productBox-white .price .tog {
+  color: #2563eb;
+  font-weight: 800;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin-bottom: 0;
+  margin-right: 16px;
+}
+.App .productBox-white .price .noat {
+  text-align: left;
+}
+.App .productBox-white .price .noat p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-bottom: 0;
+}
+.App .productBox-white .price .btns button {
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 0.375rem;
+  width: 100%;
+  margin-top: 16px;
+  padding: 8px 32px;
+  border: 2px solid #2563eb;
+  color: #fff;
+  background-color: #2B65E8;
+  cursor: pointer;
+}
+.App .productBox-white .detail {
+  font-weight: 600;
+  margin-top: 20px;
+}
+.App .productBox-white .detail svg {
+  color: #2563eb;
+  margin-right: 8px;
+}
+.App .productBox-white .detail p {
+  padding: 12px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-top: 1px solid rgb(178, 179, 180);
+  margin-bottom: 0;
+}
 .App .section-second {
   margin: 0px 200px;
+}
+.App .section-second-box {
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 1200px) {
