@@ -95,8 +95,10 @@ function App() {
             <div className='backcolor'></div>
             <div className='welcome'>
               <p className='text'>Бид зах зээлд хамгийн өрсөлдөхүйц үнэ тогтоосон. 765 ажилтан өдөр шөнөгүй чанар сайтай цемент, шохой үйлдвэрлэж байна. Манай борлуулалтын албатай холбогдож цемент аваарай! Таны бүтээн байгуулалтад амжилт хүсье!</p>
-              <p className='director'>Гүйцэтгэх захирал</p>
-              <p className='director'>Л.Наранбаатар</p>
+              <div className='director'>
+                <p>Гүйцэтгэх захирал</p>
+                <p>Л.Наранбаатар</p>
+              </div>
             </div>
           </div>
           <div className='news container-xl'>
@@ -108,11 +110,59 @@ function App() {
                 <Col span={8}><NewsBox/></Col>
                 <Col span={8}><NewsBox/></Col>
             </Row>
-           
           </div>
-
-
-     
+          <div className='footer'>
+            <Row justify='space-between' className='container-xl footer-end'>
+              <Col>
+                <p>Бидний тухай</p>
+                <p>Товч танилцуулга</p>
+                <p>Эрхэм зорилго</p>
+                <p>Үе үеийн удирдлагууд</p>
+                <p>Шагнал</p>
+                <p>Түүх</p>
+              </Col>
+              <Col>
+                <p>Бүтээгдэхүүн</p>
+                <p>Цемент</p>
+                <p>Эрхэм зорилго</p>
+                <p>Үе үеийн удирдлагууд</p>
+                <p>Шагнал</p>
+                <p>Түүх</p>
+              </Col>
+              <Col>
+                <p>Бүтээгдэхүүн</p>
+                <p>Цемент</p>
+                <p>Эрхэм зорилго</p>
+                <p>Үе үеийн удирдлагууд</p>
+                <p>Шагнал</p>
+                <p>Түүх</p>
+              </Col>
+              <Col>
+                <p>Бүтээгдэхүүн</p>
+                <p>Цемент</p>
+                <p>Эрхэм зорилго</p>
+                <p>Үе үеийн удирдлагууд</p>
+                <p>Шагнал</p>
+                <p>Түүх</p>
+              </Col>
+              <Col>
+                <p>Бүтээгдэхүүн</p>
+                <p>Цемент</p>
+                <p>Эрхэм зорилго</p>
+                <p>Үе үеийн удирдлагууд</p>
+                <p>Шагнал</p>
+                <p>Түүх</p>
+              </Col>
+            </Row>
+            <Row justify='space-between' className='container-xl copyright' gutter={[16,16]}>
+              <Col>© 2022 Цемент Шохой ТӨХК</Col>
+              <Col className='social'>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>YouTube</p>
+              </Col>
+            </Row>
+          </div>
    
     </div>
   );
