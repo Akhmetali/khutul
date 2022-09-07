@@ -1,7 +1,8 @@
-import { Row, Col, Image } from 'antd';
+import { Row, Col, Image, Avatar } from 'antd';
 import { BsTelephoneFill, BsCheckLg } from "react-icons/bs"
 import { FaBars } from "react-icons/fa"
 import ProductBox from './components/productBox';
+import NewsBox from './components/NewsBox';
 function App() {
   return (
     <div className="App">
@@ -89,9 +90,25 @@ function App() {
 
 }
           </div>
-          <div className='content'>
-            <div></div>
-
+          <div className='content container-xl'>
+            <img src='https://i.postimg.cc/MTz55KSG/naranbaatar.jpg'/>
+            <div className='backcolor'></div>
+            <div className='welcome'>
+              <p className='text'>Бид зах зээлд хамгийн өрсөлдөхүйц үнэ тогтоосон. 765 ажилтан өдөр шөнөгүй чанар сайтай цемент, шохой үйлдвэрлэж байна. Манай борлуулалтын албатай холбогдож цемент аваарай! Таны бүтээн байгуулалтад амжилт хүсье!</p>
+              <p className='director'>Гүйцэтгэх захирал</p>
+              <p className='director'>Л.Наранбаатар</p>
+            </div>
+          </div>
+          <div className='news container-xl'>
+            <div className='title'>
+              <h1>Сүүлийн мэдээ</h1>
+            </div>
+            <Row gutter={[16,16]}>
+                <Col span={8}><NewsBox/></Col>
+                <Col span={8}><NewsBox/></Col>
+                <Col span={8}><NewsBox/></Col>
+            </Row>
+           
           </div>
 
 

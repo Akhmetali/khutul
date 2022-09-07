@@ -293,9 +293,92 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin: 40px 0px;
     }
     .content{
+        position: relative;
+        margin-top: 40px;
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 16px;
+        }
+        .backcolor{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #2B65E8;
+            opacity: 0.7;
+            border-radius: 16px;
+        }
+       .welcome{
+            padding: 96px 64px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            color: #fff;
+            font-weight: 500;
+        .text{
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+        .director{
+            font-size: 1.2rem;
+            margin-bottom: 0;
+        }
+       }
 
+    }
+    .news{
+        margin-top: 40px;
+        .title{
+            text-align: center;
+            h1{
+                font-size: 2.25rem;
+                line-height: 2.5rem;
+            }
+        }
+        .news-box{
+            width: 100%;
+            .img{
+                background: url('https://cdn.sanity.io/images/etna2ro5/khutulcement-sanity/411d03c64496d0283b641384dccf25fd46127f43-918x960.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                height: 190px;
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
+            }
+         
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            .text{
+                padding: 16px;
+                .titles{
+                    font-weight: 600;
+                    font-size: 16px;
+                    
+                }
+                .employee{
+                    display: flex;
+                    align-items: center;
+                    &-name{
+                        margin-left: 10px;
+                        p{
+                            margin: 0
+                        }
+                        p:last-child{
+                            color: #a5a5a5;
+                            font-weight: 600;
+                        }
+                    }
+                }
+
+            }
+        }
     }
   
 }
