@@ -106,9 +106,9 @@ function App() {
               <h1>Сүүлийн мэдээ</h1>
             </div>
             <Row gutter={[16,16]}>
-                <Col span={8}><NewsBox/></Col>
-                <Col span={8}><NewsBox/></Col>
-                <Col span={8}><NewsBox/></Col>
+                <Col md={24} xl={8}><NewsBox/></Col>
+                <Col md={24} xl={8}><NewsBox/></Col>
+                <Col md={24} xl={8}><NewsBox/></Col>
             </Row>
           </div>
           <div className='footer'>
