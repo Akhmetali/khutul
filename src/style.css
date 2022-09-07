@@ -1,10 +1,33 @@
 @import 'antd/dist/antd.css';
+.container-sm {
+  max-width: 640px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.container-md {
+  max-width: 768px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.container-lg {
+  max-width: 1024px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.container-xl {
+  max-width: 1280px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
 .App {
   color: #374151;
   font-family: inherit;
 }
 .App-header-tag {
-  margin: 0px 400px;
   padding: 32px 10px;
   font-size: 0.75rem;
 }
@@ -28,7 +51,6 @@
   margin-right: 8px;
 }
 .App .App-header {
-  margin: 0px 300px;
   font-size: 14px;
 }
 .App .App-header .menus {
@@ -228,14 +250,15 @@
   border-top: 1px solid rgb(178, 179, 180);
   margin-bottom: 0;
 }
-.App .section-second {
-  margin: 0px 200px;
-}
 .App .section-second-box {
   display: flex;
   align-items: center;
 }
-
+.App .cups {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 @media (max-width: 1200px) {
   .menu {
     display: none !important;

@@ -1,11 +1,11 @@
-import { Row, Col } from 'antd';
+import { Row, Col, Image } from 'antd';
 import { BsTelephoneFill, BsCheckLg } from "react-icons/bs"
 import { FaBars } from "react-icons/fa"
 import ProductBox from './components/productBox';
 function App() {
   return (
     <div className="App">
-      <div className='App-header-tag'>
+      <div className='App-header-tag container-lg'>
         <Row gutter={[16,16]} justify="end">
           <Col className='contact1'>
             <p><BsTelephoneFill/>(+976) 736-8151</p>
@@ -18,7 +18,7 @@ function App() {
           </Col>
         </Row>
       </div>
-      <div className='App-header'>
+      <div className='App-header container-xl'>
           <div className='menus'>
             <div className='icon'>
               <img src='https://i.postimg.cc/KjvTk1yn/Logo2022.png'/>
@@ -44,7 +44,7 @@ function App() {
             <button>Цемент</button>
             <button>Шохой</button>
         </div>
-        <div className='section-second'>
+        <div className='section-second container-xl'>
           <Row className='section-second-box' align='center' gutter={[0,16]}>
             <Col>
               <ProductBox/>
@@ -74,10 +74,25 @@ function App() {
             <ProductBox/>
             </Col>
           </Row>
-          
-          
         </div>
+
       </div>
+      <div className='cups container-xl' >
+{
+            [1,2,3,4,5,5,6,6,6].map(e=>
+              <Image
+              width={50}
+              src="https://i.postimg.cc/J0fMZJCv/reward5.png"
+              />
+              
+            )
+
+}
+          </div>
+          <div className='content'>
+            <div></div>
+
+          </div>
 
 
      
