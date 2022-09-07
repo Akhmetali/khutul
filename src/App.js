@@ -45,11 +45,11 @@ function App() {
             <button>Шохой</button>
         </div>
         <div className='section-second container-xl'>
-          <Row className='section-second-box' align='center' gutter={[0,16]}>
-            <Col>
+          <Row gutter={[0,16]} className='section-second-box' justify='space-between' align='center'>
+            <Col xl={8} span={24}>
               <ProductBox/>
             </Col>
-            <Col>
+            <Col  xl={8} span={24}>
               <div className="productBox-white">
                 <h3>ЦЕМЕНТ 42.5</h3>
                 <div className='price'>
@@ -70,7 +70,7 @@ function App() {
                 </div>
             </div>
             </Col>
-            <Col>
+            <Col  xl={8} span={24}>
             <ProductBox/>
             </Col>
           </Row>
